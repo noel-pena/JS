@@ -19,6 +19,8 @@ function getMilk(money) {
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
+  return money % 1.5;
 }
 
-getMilk(6);
+
+getMilk(5);
