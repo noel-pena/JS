@@ -8,7 +8,7 @@ function bottlesOfBeer() {
             output.push("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.");
             break;
         } else {
-            output.push(${bottles} bottles of beer on the wall, ${bottles} bottles of beer. Take 1 down, pass it around, ${remainingBottles} bottles of beer on the wall);
+            output.push(`${bottles} bottles of beer on the wall, ${bottles} bottles of beer. Take 1 down, pass it around, ${remainingBottles} bottles of beer on the wall`);
             bottles--
             remainingBottles--
         }
